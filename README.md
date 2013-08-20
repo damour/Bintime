@@ -5,7 +5,7 @@ sudo pear install PHP_CodeSniffer
 
 cd /usr/share/php/PHP/CodeSniffer/Standards
 
-git clone https://github.com/damour/Bintime.git
+sudo git clone https://github.com/damour/Bintime.git
 
 sudo phpcs --config-set tab_width 4
 
