@@ -3,7 +3,9 @@
 
 sudo pear install PHP_CodeSniffer
 
-Setting the default tab width to be 4 spaces:
+cd /usr/share/php/PHP/CodeSniffer/Standards
+
+git clone https://github.com/damour/Bintime.git
 
 sudo phpcs --config-set tab_width 4
 
